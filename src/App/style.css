@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 8px;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+.app {
+  max-width: 106rem;
+  margin: 0 auto;
+  padding: 2rem;
+  font: 400 2rem Open Sans, sans-serif;
+  color: #333333;
+}

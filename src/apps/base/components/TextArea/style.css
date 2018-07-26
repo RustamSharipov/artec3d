@@ -1,0 +1,27 @@
+.textArea {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.textArea:global(.isRequired)::before {
+  content: "*";
+  color: red;
+}
+
+.input {
+  width: 100%;
+  min-height: 5rem;
+  padding: 1rem;
+  background: #fbfbfb;
+  border: 1px solid #fbfbfb;
+  font-size: 2rem;
+  outline: 0;
+}
+.input:focus {
+  border-color: #a39fb9;
+}
+
+.label {
+  padding: 0 1rem;
+  color: #999999;
+}

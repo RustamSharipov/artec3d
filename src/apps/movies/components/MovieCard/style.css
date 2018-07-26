@@ -1,0 +1,17 @@
+.movieCard {
+  width: 20rem;
+  padding: 2rem 1rem;
+  user-select: none;
+}
+
+.title {
+  padding: 1rem 0 0;
+  color: #000000;
+  font-weight: 600;
+}
+
+.posterImage {
+  width: 18rem;
+  height: 27rem;
+  border-radius: 4px;
+}

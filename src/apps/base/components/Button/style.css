@@ -1,0 +1,18 @@
+.button {
+  -webkit-appearance: none;
+  display: inline-block;
+  line-height: 4rem;
+  margin: 0.5rem;
+  padding: 0 2rem;
+  background: #d2de20;
+  border: 0;
+  border-radius: 4px;
+  color: #333333;
+  font-size: 2rem;
+  font-family: inherit;
+  outline: 0;
+  user-select: none;
+}
+.button:active {
+  background-color: #8f9808;
+}

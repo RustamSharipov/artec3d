@@ -1,0 +1,8 @@
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #eeeeee;
+  color: #000000;
+}

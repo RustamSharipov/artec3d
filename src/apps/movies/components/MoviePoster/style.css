@@ -1,0 +1,13 @@
+.moviePoster {
+  display: inline-flex;
+}
+
+.image {
+  width: 18rem;
+  height: 27rem;
+  border-radius: 4px;
+}
+.image:global(.largeSize) {
+  width: 24rem;
+  height: 36rem;
+}

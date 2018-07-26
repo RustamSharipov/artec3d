@@ -1,0 +1,13 @@
+.movieGenres {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genre {
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  padding: 0.25rem;
+  border-radius: 4px;
+  background: #eeeeee;
+  font-size: 1.5rem;
+  color: #777777;
+}

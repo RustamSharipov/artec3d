@@ -1,0 +1,13 @@
+.movieDetailsView {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.details {
+  padding-left: 3rem;
+}
+
+.editLink {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
