@@ -14,7 +14,7 @@ import styles from './style.css';
 
 class App extends React.Component {
   componentDidMount() {
-    this.props.MoviesActions.fetchAllMovies();
+    this.props.MoviesActions.getAllMovies();
   }
 
   render() {

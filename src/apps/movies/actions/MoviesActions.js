@@ -19,12 +19,17 @@ function validateMovieDetails(movieDetails) {
   return validFieldsCount === requiredFields.length;
 }
 
-export function fetchAllMovies() {
-  const { movies } = data;
+async function fetchMovies() {
+  return await Promise.resolve(data.movies);
+}
+
+export function getAllMovies() {
   return (dispatch) => {
-    dispatch({
-      type: FETCH_ALL_MOVIES,
-      payload: { movies },
+    fetchMovies().then((movies) => {
+      dispatch({
+        type: FETCH_ALL_MOVIES,
+        payload: { movies },
+      });
     });
   };
 }
