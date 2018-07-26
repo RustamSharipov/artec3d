@@ -19,8 +19,8 @@ function validateMovieDetails(movieDetails) {
   return validFieldsCount === requiredFields.length;
 }
 
-async function fetchMovies() {
-  return await Promise.resolve(data.movies);
+function fetchMovies() {
+  return Promise.resolve(data.movies);
 }
 
 export function getAllMovies() {
@@ -66,6 +66,10 @@ export function getMovieDetails(movieId) {
 }
 
 export function updateMovieFormField(formField) {
+  if ('genres' in formField) {
+    formField.genres = formField.genres.split(/,\s*/)
+  }
+
   return {
     type: UPDATE_MOVIE_FORM_FIELD,
     payload: formField,
